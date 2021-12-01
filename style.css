@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* html{
+    background: url(./img/bugatti-chiron-2015-2020-1552284291.18.png)no-repeat;
+    background-size: cover;
+} */
+.item1{
+    font-family: 'M PLUS 2', sans-serif;
+}
+.container  > div{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: grid;
+    grid-row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(0 auto);
+}
+body{
+    background-color: gainsboro;
+}
+img{
+    width: 200px;
+    height: 100px;
+}
+.item15 > a{
+    width: 170px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border: black 1px solid;
+    border-radius: 20px;
+    background-color: gold;
+    transition: all 0.9s;
+    text-align: center;
+}
+.item15 > a:hover{
+    background-color: coral;
+    width: 200px;
+}
+.item10 > a{
+    text-decoration: none;
+    transition: all 0.9s;
+}
+.item10 > a:hover{
+    font-size: 20px;
+    
+}
